@@ -160,7 +160,7 @@ HTML_TEMPLATE = """
 @app.route('/')
 def home():
     # You can change this name to whatever you want
-    name = "Presented By Palak badgujar"
+    name = "Presented By :- Palak badgujar"
     return render_template_string(HTML_TEMPLATE, name=name)
 
 if __name__ == '__main__':
